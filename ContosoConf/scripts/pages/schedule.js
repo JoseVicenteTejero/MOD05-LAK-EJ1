@@ -22,7 +22,7 @@ request.onreadystatechange = function () {
         });
         displaySchedule();
     }
-}; 
+};  
 request.send(); */
 function downloadSchedule() {
     const request = new XMLHttpRequest();
