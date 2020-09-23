@@ -1,20 +1,4 @@
-﻿let schedule = [];
-function createSessionElement(session) {
-    const li = document.createElement("li");
-    li.sessionId = session.id;
-
-    const star = document.createElement("a");
-    star.setAttribute("href", "#");
-    star.setAttribute("class", "star");
-    li.appendChild(star);
-
-    const title = document.createElement("span");
-    title.textContent = session.title;
-    li.appendChild(title);
-
-    return li;
-};
-// Get the registration <form> element from the DOM.
+﻿// Get the registration <form> element from the DOM.
 const form = document.getElementById("registration-form");
 const submitButton = form.querySelector("button");
 // Get the <input> elements from the DOM.
