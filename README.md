@@ -2,7 +2,7 @@
 NOMBRE: JOSÉ VICENTE TEJERO CALDERERA 
 FECHA: 23/09/2020
 
-RESUMEN: El objetivo final es la recuperación de datos desde lejanas fuentes. es recuperar datos. Para ello, modificamos
+RESUMEN: El objetivo final es la recuperación de datos desde lejanas fuentes. Para ello, modificamos
 la programación javascript incluyendo llamadas al objeto XMLHttpRequest() y revisando el control de errores.
 
 
